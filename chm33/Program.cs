@@ -13,10 +13,12 @@ namespace chm33
         static void Main(string[] args)
         {
             Console.WriteLine("xd");
-           /*   2 1 2   
-           *    1 2 0
-           *    2 0 3
-           */
+
+            Console.WriteLine("kek");
+            /*   2 1 2   
+            *    1 2 0
+            *    2 0 3
+            */
             double[,] array = { { 2, 1, 2 }, { 1, 2, 0 }, { 2, 0, 3 } };
             Matrix<double> matrix = Matrix<double>.Build.DenseOfArray(array);
             double[] x00 = { 1, 1, 1 };
