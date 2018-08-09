@@ -9,8 +9,10 @@ namespace chm33
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
+            Console.WriteLine("xd");
            /*   2 1 2   
            *    1 2 0
            *    2 0 3
